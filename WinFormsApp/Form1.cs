@@ -33,7 +33,7 @@ namespace WinFormsApp
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            var stream = new StreamReader("E:/Ata/Software/Visualstudio/projects/TrieTree/TrieTree/vocabulary.txt");
+            var stream = new StreamReader("E:/Ata/Software/Visualstudio/projects/TrieTree/WinFormsApp/vocabulary.txt");
             while (!stream.EndOfStream)
                items.Add(stream.ReadLine().ToLower());
 
